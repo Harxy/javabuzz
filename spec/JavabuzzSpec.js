@@ -38,6 +38,12 @@ describe('Javabuzz', function() {
 
     });
 
+    it('divisible by fifteen', function() {
+
+      expect (javabuzz.isDivisibleByFifteen(16)).toBe(false);
+
+    });
+
   });
 
 });
