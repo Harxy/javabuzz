@@ -13,8 +13,14 @@ describe('Javabuzz', function() {
       expect(javabuzz.isDivisibleByThree(3)).toBe(true);
     });
 
-    it('isDivisibleByFive', function(){
-      expect(javabuzz.isDivisibleByFive(5).toBe(true));
+    it('isDivisibleByFive', function() {
+      expect(javabuzz.isDivisibleByFive(5)).toBe(true);
+    });
+
+    it('isDivisibleByFifteen', function() {
+
+      expect(javabuzz.isDivisibleByFifteen(15)).toBe(true);
+
     });
 
   });
@@ -25,6 +31,13 @@ describe('Javabuzz', function() {
       // javabuzz = new Javabuzz();
       expect(javabuzz.isDivisibleByThree(1)).toBe(false);
     });
+
+    it('divisible by five', function() {
+
+      expect (javabuzz.isDivisibleByFive(7)).toBe(false);
+
+    });
+
   });
 
 });
